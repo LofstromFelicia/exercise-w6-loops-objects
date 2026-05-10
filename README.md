@@ -1,17 +1,22 @@
-<h1 align="center">
-  <a href="">
-    <img src="src/assets/week_3.svg" alt="Boiler Plate">
-  </a>
-</h1>
+# Pokémon Objects & Loops ⚡️
 
-# JavaScript Loops & Objects
+In this exercise, I practiced how to structure data using JavaScript **Objects** and how to efficiently display that data using the **forEach** loop.
 
-In this week’s team session, you will practice JavaScript basics and work on applying the concepts we have learned throughout the week.
+## What I implemented:
 
-### Instructions:
+1.  **Object Blueprints:** Created detailed objects for Pokémon, storing multiple properties like `name`, `element`, and `strength`.
+2.  **Object Manipulation:** Practiced adding new properties, updating values (like increasing `strength`), and deleting properties from an object.
+3.  **Arrays of Objects:** Built a collection of multiple Pokémon objects to simulate a real-world database.
+4.  **Data Extraction:** Used `.forEach()` to loop through the array and target specific information:
+    *   Printing only the **names** of every Pokémon.
+    *   Generating a **full description** for every Pokémon using Template Literals.
 
-Take a look into the `index.js` file and follow the instructions to complete the exercises from 1-9.
+## Key Technical Concepts:
 
-## Getting Started with the Project
+*   **Objects `{}`:** Used to group related data together.
+*   **Dot Notation:** The "key" to unlocking data inside an object (e.g., `pokemon.name`).
+*   **forEach Loop:** Iterating through an array to perform the same action for every item.
+*   **Template Literals:** Mixing strings and object properties smoothly using backticks and `${}`.
 
-Fork this repository and start working in your local environment (you can download LiveServer to run your project locally).
+---
+*Learning how to handle structured data, one Pokémon at a time!* 🐾
