@@ -46,14 +46,21 @@ console.log(`${pikachu.name} is a ${pikachu.element} pokemon with the strength o
 // 'Pikachu is a electricity pokemon with the strength of 32'
 // I did this in the previous step :) 
 
-// 4)
+// --- 4 --- 
 // Add the property stillToCatch: true to the Pikachu object.
+pikachu.stillToCatch = true
 
-// 5)
+console.log(pikachu)
+
+// --- 5 ---
 // change the value of the key strength in the Pikachu object.
+pikachu.strength = 100
 
-// 6)
+// --- 6 --- 
 // Delete a property from the Pikachu object.
+delete pikachu.color
+
+console.log(pikachu)
 
 // 7)
 // Fill up this array with a few more pokemons.
