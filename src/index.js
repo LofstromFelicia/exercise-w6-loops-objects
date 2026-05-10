@@ -14,20 +14,37 @@ const pokemons = [
   "Pidgey"
 ];
 
-// 1)
+// --- 1 --- 
 // create a loop that prints all
 // the pokemons from the pokemons array
 // invoke the function to see that it works
 
-// 2)
+const printPokemons = () => {
+  pokemons.forEach(pokemon => console.log(pokemon))
+}
+printPokemons();
+
+
+// --- 2 --- 
 // Create an object for the pokemon Pikachu.
 // it could have properties such as name, element,
 // strength, color, amountOfLegs or something like that.
 
-// 3)
+const pikachu = {
+  name: "Pikachu",
+  element: "Electric",
+  strength: 32,
+  color: "Yellow",
+  amountOfLegs: 2,
+  iscute: true
+};
+
+console.log(`${pikachu.name} is a ${pikachu.element} pokemon with the strength of ${pikachu.strength}`)
+
+// --- 3 --- 
 // console.log something like
 // 'Pikachu is a electricity pokemon with the strength of 32'
-// Selecting some of the information about your pikachu object.
+// I did this in the previous step :) 
 
 // 4)
 // Add the property stillToCatch: true to the Pikachu object.
